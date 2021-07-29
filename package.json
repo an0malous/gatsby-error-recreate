@@ -1,5 +1,5 @@
 {
-  "name": "dfj-gatsby-typescript-starter",
+  "name": "dfj-gatsby-starter",
   "version": "1.0.0",
   "private": true,
   "description": "DFJ Gatsby Typescript Starter",
@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "jest"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",
@@ -27,5 +28,27 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/node": "^16.4.6",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-helmet": "^6.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "babel-jest": "^27.0.6",
+    "babel-preset-gatsby": "^1.10.0",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "gatsby-plugin-testing": "^0.3.4",
+    "gatsby-plugin-typegen": "^2.2.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.6",
+    "react-test-renderer": "^17.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.3.5"
   }
 }
